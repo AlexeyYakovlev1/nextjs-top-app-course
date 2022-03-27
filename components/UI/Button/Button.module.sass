@@ -1,0 +1,36 @@
+@import "../../../styles/_vars"
+	
+.button
+	display: inline-block
+	padding: 10px
+	cursor: pointer
+	text-align: center
+	border: none
+	border-radius: 5px
+	font-size: 14px
+	transition: all .2s ease
+
+.primary
+	color: #fff
+	background-color: $primary
+	&:hover
+		background-color: $primaryHover
+	& svg
+		fill: #fff
+
+.ghost
+	color: $black
+	background: none
+	border: 1px solid $grayLight
+	&:hover
+		color: #fff
+		background-color: $primary
+		& svg
+			fill: #fff
+
+.arrow
+	display: inline-block
+	margin-left: 10px
+	transition: transform .2s ease
+	&__down
+		transform: rotate(90deg)
