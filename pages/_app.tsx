@@ -1,4 +1,4 @@
-import '../styles/style.sass';
+import "../styles/_global.sass";
 import type { AppProps } from 'next/app';
 import Head from "next/head";
 

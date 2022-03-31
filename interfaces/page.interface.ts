@@ -11,7 +11,7 @@ export interface ITopPageAdvantage {
 	description: string;
 }
 
-export interface IHhDate {
+export interface IHhData {
 	_id: string;
 	count: number;
 	juniorSalary: number;
@@ -35,5 +35,5 @@ export interface ITopPageModel {
 	advantages: ITopPageAdvantage[];
 	createdAt: Date;
 	updatedAt: Date;
-	hh: IHhDate;
+	hh: IHhData;
 }

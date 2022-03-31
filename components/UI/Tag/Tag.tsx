@@ -18,7 +18,7 @@ const Tag = ({ size="small", children, color="ghost", href, className, ...props 
 			})}
 			{...props}
 		>
-			{href ? <Link href={href}><a>{children}</a></Link> : <>children</>}
+			{href ? <Link href={href}><a>{children}</a></Link> : <>{children}</>}
 		</div>
 	);
 };
